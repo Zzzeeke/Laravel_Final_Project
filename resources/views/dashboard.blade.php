@@ -57,7 +57,7 @@
 
             <!-- Completed Tasks -->
             <div class="mb-6 pl-20">
-                <h2 class="font-semibold text-xl text-gray-800 dark:text-black-200 leading-tight">To-Do List</h2>
+                <h2 class="font-semibold text-xl text-gray-800 dark:text-black-200 leading-tight">Completed List</h2>
                 <ul style="padding: 0; list-style-type: none;"> 
                     @foreach ($completedTodos as $todo)
                         <li class="flex flex-col px-4 py-3">
