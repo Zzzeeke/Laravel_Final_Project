@@ -1,5 +1,7 @@
 <header>
-    <div class="container mx-auto">
-        <h1 class="text-2xl">ToDo List</h1>
-    </div>
+    <x-slot name="header">
+        <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
+            {{ __('ToDo List') }}
+        </h2>
+    </x-slot>
 </header>
